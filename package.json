@@ -1,0 +1,25 @@
+{
+  "name": "metadata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "extractor.js",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.0",
+    "unzipper": "^0.10.11",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "nyc": "^15.1.0"
+  },
+  "scripts": {
+    "start": "node extractor.js",
+    "test": "nyc mocha --timeout 50000"
+  },
+  "author": "",
+  "license": "ISC"
+}
