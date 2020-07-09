@@ -12,7 +12,7 @@ INSTALL
 
    ```sh
    $ # Clone the repository
-   $ cd extractor
+   $ cd rohit-chandrashekar-example-code
    
    $ # create the input folder
    $ mkdir input
