@@ -14,6 +14,9 @@ INSTALL
    $ # Clone the repository
    $ cd extractor
    
+   $ # create the input folder
+   $ mkdir input
+   
    $ # install the dependencies
    $ npm i
    
