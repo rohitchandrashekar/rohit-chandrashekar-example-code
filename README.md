@@ -13,16 +13,13 @@ INSTALL
    ```sh
    $ # Clone the repository
    $ cd extractor
-   ```
-    ```sh
+   
    $ # install the dependencies
    $ npm i
-   ```
-    ```sh
+   
    $ # create the database
    $ scripts.sql
    ```
-
 
 TRY IT!
 -------
