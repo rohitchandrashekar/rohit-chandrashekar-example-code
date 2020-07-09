@@ -5,7 +5,7 @@ const NO_OF_THREADS = 7;
 async function init() {
     try {
         await sequelize.sync({ force: true });
-        console.time('main thread started');
+        console.log('main thread started');
         const FileList = await walk('./input');
         if (isMainThread) {
             const sliceStart = Math.floor(FileList.length / NO_OF_THREADS);

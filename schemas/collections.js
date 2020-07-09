@@ -12,10 +12,10 @@ const sequelize = new Sequelize('gutenberg', 'root', 'root', {
 });
 Collections = sequelize.define('collections', {
   id: { type: Sequelize.STRING, primaryKey: true },
-  title: { type: Sequelize.STRING(1000) },
-  authors: { type: Sequelize.STRING(1000) },
+  title: Sequelize.STRING(1000),
+  authors: Sequelize.STRING(1000),
   publisher: Sequelize.STRING,
-  publication_date: { type: Sequelize.DATE },
+  publication_date: Sequelize.DATE,
   language: Sequelize.STRING,
   subjects: Sequelize.TEXT,
   license_rights: Sequelize.STRING
