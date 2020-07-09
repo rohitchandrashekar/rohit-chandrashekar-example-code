@@ -18,6 +18,10 @@ INSTALL
    $ # install the dependencies
    $ npm i
    ```
+    ```sh
+   $ # create the database
+   $ scripts.sql
+   ```
 
 
 TRY IT!
@@ -27,7 +31,7 @@ TRY IT!
  - Run the script
 
    ```sh
-   $ npm run start
+   $ npm start
    ```
 
 - [x] Test
@@ -35,7 +39,7 @@ TRY IT!
 - Test the script
 
    ```sh
-   $ npm run test
+   $ npm test
    ```
    
 ## Benchmarks
