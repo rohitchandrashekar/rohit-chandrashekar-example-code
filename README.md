@@ -12,7 +12,7 @@ INSTALL
 
    ```sh
    $ # Clone the repository
-   $ cd rohit-chandrashekar-example-code
+   $ cd worker-threads-SQL-benchmark
    
    $ # create the input folder
    $ mkdir input
